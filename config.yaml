@@ -1,0 +1,15 @@
+proxies:
+  - name: "香港中转|IcJa.love@xray.com"
+    type: vless
+    server: aaa.chaogeniubgroup.top
+    port: 30851
+    uuid: e19d91e3-6d14-466d-ec56-4d81eee7bb94
+    cipher: none
+    tls: true
+    skip-cert-verify: true
+    servername: aaa.chaogeniubgroup.top
+    network: ws
+    ws-opts:
+      path: /aa
+      headers:
+        Host: aaa.chaogeniubgroup.top
